@@ -1,8 +1,6 @@
 
 ///script by Rodeostar42///
 
-
-
 ///Skill Gear///
 _medgear = [
 "UNS_ARMY_MED"
@@ -50,10 +48,9 @@ _privategear = [
 ];
 
 
+///////////////give skill of ace3////////////////
 
 while{true} do {
-
-///////////////give skill of ace3////////////////
 
 ///Assign Medic///
 if(((backpack player in _medgear)&&(vehicle player == player)))   then {
@@ -103,8 +100,8 @@ player assignTeam "MAIN" call BIS_fnc_MP;
 };
 
 
-///////////////give Rank////////////////
 
+///////////////give Rank////////////////
 
 ///LIEUTENANT///
 if(((uniform player in _lieutenantgear)&&(vehicle player == player)))   then {
