@@ -103,8 +103,6 @@ player assignTeam "MAIN" call BIS_fnc_MP;
 };
 
 
-
-
 ///////////////give Rank////////////////
 
 
@@ -164,8 +162,6 @@ player setUnitRank "PRIVATE";
 
 
 ///Interpreter///
-
-
 if(((uniform player in _Interpreter)&&(vehicle player == player)))   then {
 
 [] execVM "Interpreter.sqf";
